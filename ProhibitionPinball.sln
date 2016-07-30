@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{1228BBE1-3015-9E2D-7945-678F142C4FB7}") = "ProhibitionPinball", "Assembly-CSharp.csproj", "{248D756D-56BC-AEC1-A77B-A020E3342FFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{248D756D-56BC-AEC1-A77B-A020E3342FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248D756D-56BC-AEC1-A77B-A020E3342FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248D756D-56BC-AEC1-A77B-A020E3342FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248D756D-56BC-AEC1-A77B-A020E3342FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
