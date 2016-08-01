@@ -1,4 +1,4 @@
-# Pro hibition pinball
+# Prohibition pinball
 
 A project by George and Chris
 
