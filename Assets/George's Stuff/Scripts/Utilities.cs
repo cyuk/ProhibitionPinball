@@ -5,7 +5,13 @@ using System.Collections;
 
 public class Utilities : MonoBehaviour 
 {
+	void Start ()
+	{
+		Time.timeScale = 1.0f;
+	}
+
 	public CanvasGroup UI, Pause, Death;
+
 	public void loadLevel(int sceneBuildIndex)
 	{
 		SceneManager.LoadScene (sceneBuildIndex);
@@ -30,7 +36,8 @@ public class Utilities : MonoBehaviour
 
 	public void pauseMenu()
 	{
-		if (UI.alpha == 1.0f) {
+		if (UI.alpha == 1.0f) 
+		{
 			UI.alpha = 0.0f;
 			UI.blocksRaycasts = false;
 			UI.interactable = false;
@@ -38,7 +45,9 @@ public class Utilities : MonoBehaviour
 			Pause.alpha = 1.0f;
 			Pause.blocksRaycasts = true;
 			Pause.interactable = true;
-		} else {
+		} 
+		else 
+		{
 			Pause.alpha = 0.0f;
 			Pause.blocksRaycasts = false;
 			Pause.interactable = false;
