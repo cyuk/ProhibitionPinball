@@ -4,4 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/George's Stuff/Scenes/MainMenu.unity
+  - enabled: 1
+    path: Assets/George's Stuff/Scenes/dicks.unity
+  - enabled: 1
+    path: Assets/BoardScene.unity
+  - enabled: 1
+    path: Assets/George's Stuff/Scenes/Credits.unity
