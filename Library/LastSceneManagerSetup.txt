@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/George's Stuff/Scenes/dicks.unity
+- path: Assets/George's Stuff/Scenes/MainMenu.unity
   isLoaded: 1
   isActive: 1
