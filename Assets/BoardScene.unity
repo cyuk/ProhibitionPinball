@@ -547,7 +547,7 @@ SphereCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1194262085}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 7d00d86f52a1a9f4dbd09c51e99e6cd1, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -652,7 +652,7 @@ CapsuleCollider:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1279682377}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 7d00d86f52a1a9f4dbd09c51e99e6cd1, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
@@ -710,7 +710,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0df1a1d1b6a372444a6fcbfeedafddf4, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1030,6 +1030,11 @@ Prefab:
       propertyPath: m_Name
       value: Flipper (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 13667274, guid: 2758478262857584bb01c82fac023ae2, type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 7d00d86f52a1a9f4dbd09c51e99e6cd1,
+        type: 2}
     m_RemovedComponents:
     - {fileID: 11424162, guid: 2758478262857584bb01c82fac023ae2, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 2758478262857584bb01c82fac023ae2, type: 2}
