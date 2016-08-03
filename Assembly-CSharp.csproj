@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Flipper.cs" />
+     <Compile Include="Assets\George&apos;s Stuff\Scripts\FlipperBehaviour.cs" />
      <Compile Include="Assets\George&apos;s Stuff\Scripts\MainMenuUtilities.cs" />
      <Compile Include="Assets\George&apos;s Stuff\Scripts\Utilities.cs" />
  <Reference Include="UnityEngine.UI">
