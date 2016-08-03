@@ -7,9 +7,9 @@ We got bored and decided to create a pinball game over summer
 
 ## Restrictions
 
-...
+'''C++
 We will be working to a strict & fabulous coding style that we have yet to decide upon
-...
+'''
 
 ### Authors
 
