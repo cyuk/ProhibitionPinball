@@ -10,6 +10,7 @@ public class FlipperBehaviour : MonoBehaviour {
 	void Start () 
 	{
 		GetComponent<Rigidbody> ().maxAngularVelocity = 100f;
+		//motor.force = 0;
 	}
 	
 	// Update is called once per frame
