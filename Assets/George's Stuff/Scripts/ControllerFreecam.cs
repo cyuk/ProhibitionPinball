@@ -2,14 +2,20 @@
 using System.Collections;
 
 public class ControllerFreecam : MonoBehaviour {
+	float flySpeed = 0.5f;
+	GameObject defaultCamera;
+	GameObject playerObject;
+	bool isEnabled;
+	bool shift;
+	bool ctrl;
+	float accelerationAmount = 3.0f;
+	float accelerationRatio = 1.0f;
+	float slowDownRatio = 0.5f;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	void Update () 
+	{
+		if (Input.GetKeyDown (KeyCode.LeftShift) || Input.GetKeyUp (KeyCode.LeftShift)) {
+
+		}
 	}
 }
