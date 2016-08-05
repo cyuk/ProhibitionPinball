@@ -257,8 +257,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 656821930}
-  m_LocalRotation: {x: 0.17794357, y: 0, z: 0, w: 0.98404074}
-  m_LocalPosition: {x: 0.56, y: 3.83, z: -18.52}
+  m_LocalRotation: {x: 0.2730359, y: 0, z: 0, w: 0.9620039}
+  m_LocalPosition: {x: 0.56, y: 4.57, z: -18.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -310,10 +310,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07489c0f836857b4b87aceee64309770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 250
+  button: Fire1
   forceDirection: {x: 0, y: 0, z: 1}
-  buttonName: 4669726531
-  offset: {x: 1, y: 0, z: 0}
+  order: 100
+  balance: {x: 1, y: 0, z: 0}
 --- !u!59 &792759321
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -325,7 +325,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.65, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -2.6263728, y: 0.49999994, z: -12.271308}
+  m_ConnectedAnchor: {x: -2.685, y: 0.49999994, z: -12.271308}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -419,7 +419,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 792759319}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071067}
-  m_LocalPosition: {x: -1.6513729, y: 0.50000006, z: -12.271308}
+  m_LocalPosition: {x: -1.71, y: 0.50000006, z: -12.271308}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -675,10 +675,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07489c0f836857b4b87aceee64309770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 250
+  button: Fire2
   forceDirection: {x: 0, y: 0, z: 1}
-  buttonName: 4669726532
-  offset: {x: -1, y: 0, z: 0}
+  order: 100
+  balance: {x: 0, y: 0, z: 0}
 --- !u!59 &1054141236
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -688,7 +688,7 @@ HingeJoint:
   m_GameObject: {fileID: 1054141234}
   m_ConnectedBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.65, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 3.133734, y: 0.49999994, z: -12.266564}
   m_UseSpring: 0
@@ -818,7 +818,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f6d75ded6a742c2478c81662d8e1617f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -908,7 +908,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 0df1a1d1b6a372444a6fcbfeedafddf4, type: 2}
+  - {fileID: 2100000, guid: f345ce77355f3ea4f91e1c7c5ba7cb80, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -930,7 +930,7 @@ MeshCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1323739584}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 9f4f912acb2e4b0428714c33131c7695, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1065,6 +1065,18 @@ Prefab:
     - target: {fileID: 11430262, guid: da0b3055dce1a8545a81cc532a57663e, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 22424824, guid: da0b3055dce1a8545a81cc532a57663e, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -178.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 22424824, guid: da0b3055dce1a8545a81cc532a57663e, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -476.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 22424824, guid: da0b3055dce1a8545a81cc532a57663e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da0b3055dce1a8545a81cc532a57663e, type: 2}
