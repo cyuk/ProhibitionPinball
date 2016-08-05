@@ -5,6 +5,7 @@ public class PullBack : MonoBehaviour {
 
     public Rigidbody pusherRigid;
     public float push;
+    public Vector3 offset;
 
 	void Start () 
     {
@@ -15,10 +16,11 @@ public class PullBack : MonoBehaviour {
 	void Update () 
     {
        // Debug.Log("IAHSOONHAOfso");
-	    if(Input.GetKeyDown(KeyCode.Space))
+	    if(Input.GetKey(KeyCode.Space))
         {
             Debug.Log("Push");
-            pusherRigid.AddForce(transform.forward * push);
+            //pusherRigid.AddForce(transform.forward * push);
+            pusherRigid.AddForceAtPosition((-Vector3.forward).normalized * push, transform.position + offset);
         }
 	}
 }
