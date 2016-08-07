@@ -18,7 +18,7 @@ public class PullBack : MonoBehaviour {
        // Debug.Log("IAHSOONHAOfso");
 	    if(Input.GetKey(KeyCode.Space))
         {
-            Debug.Log("Push");
+            Debug.Log("PushBack if.getKey case true");
             //pusherRigid.AddForce(transform.forward * push);
             pusherRigid.AddForceAtPosition((-Vector3.forward).normalized * push, transform.position + offset);
         }

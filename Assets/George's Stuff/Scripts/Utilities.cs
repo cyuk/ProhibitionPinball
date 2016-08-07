@@ -7,6 +7,7 @@ public class Utilities : MonoBehaviour
 {
 	void Start ()
 	{
+        //Debug.Log("Ultilities Started");
 		Time.timeScale = 1.0f;
 	}
 
@@ -14,11 +15,13 @@ public class Utilities : MonoBehaviour
 
 	public void loadLevel(int sceneBuildIndex)
 	{
+        //Debug.Log("Ultilites loadLevel called");
 		SceneManager.LoadScene (sceneBuildIndex);
 	}
 
 	public void exitGame()
 	{
+        //Debug.Log("Utilites exiting game");
 		Application.Quit ();
 	}
 
@@ -26,10 +29,12 @@ public class Utilities : MonoBehaviour
 	{
 		if (Time.timeScale == 1.0f) 
 		{
+            //Debug.Log("Utilities pauseGame");
 			Time.timeScale = 0.0f;
 		} 
 		else 
 		{
+            //Debug.Log("Utilities unpauseGame");
 			Time.timeScale = 1.0f;
 		}
 	}

@@ -16,10 +16,12 @@ public class FlipperMovement : MonoBehaviour
 	{
 		if(Input.GetButton(button))
 		{
+            Debug.Log("FlipperMovement if.getbutton case true");
 			GetComponent<Rigidbody>().AddForceAtPosition(forceDirection.normalized*order,transform.position+balance);
 		}
 		else
 		{
+            Debug.Log("FlipperMovement if.getbutton case false");
 			GetComponent<Rigidbody>().AddForceAtPosition(forceDirection.normalized*-order,transform.position+balance);
 		}
 	}

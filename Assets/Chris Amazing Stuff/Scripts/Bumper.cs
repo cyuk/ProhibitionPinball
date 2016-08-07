@@ -8,10 +8,13 @@ public class Bumper : MonoBehaviour {
 	
 	void OnCollisionEnter()
 	{
+        Debug.Log("Bumper Scipt OnCollisionEnter");
 		foreach(Collider col in Physics.OverlapSphere(transform.position, forceRadius))
 		{
+            Debug.Log("Bumper Script foreach");
 			if(col.GetComponent<Rigidbody>())
 			{
+                Debug.Log("Bumper Script if end");
 				col.GetComponent<Rigidbody>().AddExplosionForce(force,transform.position,forceRadius);
 			}
 		}
