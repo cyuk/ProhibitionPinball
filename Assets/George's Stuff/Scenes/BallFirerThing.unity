@@ -192,15 +192,15 @@ SpringJoint:
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0.25, z: 10.43}
   serializedVersion: 2
-  m_Spring: 15
-  m_Damper: 0
+  m_Spring: 100
+  m_Damper: 50
   m_MinDistance: 0
   m_MaxDistance: 0
   m_Tolerance: 0.025
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 1
-  m_EnablePreprocessing: 0
+  m_EnablePreprocessing: 1
 --- !u!54 &62607057
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -284,8 +284,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ff0078cfedf8d14492ccccf47a0d2c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pusherRigid: {fileID: 0}
-  push: 10
+  pusherRigid: {fileID: 62607057}
+  push: 2500
+  offset: {x: 0, y: 0, z: -1}
 --- !u!1 &293303397
 GameObject:
   m_ObjectHideFlags: 0
