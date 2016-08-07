@@ -919,6 +919,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 13614822, guid: ddf124e761b42b849a11950108c34918, type: 2}
+      propertyPath: m_Radius
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ddf124e761b42b849a11950108c34918, type: 2}
   m_IsPrefabParent: 0
@@ -1012,8 +1016,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afcc3d7844af74c0690e062f45683c9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 100
-  forceRadius: 1
+  force: 200
+  forceRadius: 20
 --- !u!1001 &1470746212
 Prefab:
   m_ObjectHideFlags: 0

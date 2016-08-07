@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/George's Stuff/Scenes/BallFirerThing.unity
+- path: Assets/Chris Amazing Stuff/Scenes/BoardScene.unity
   isLoaded: 1
   isActive: 1

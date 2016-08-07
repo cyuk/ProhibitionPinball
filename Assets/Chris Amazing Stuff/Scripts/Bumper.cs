@@ -8,7 +8,7 @@ public class Bumper : MonoBehaviour {
 	
 	void OnCollisionEnter()
 	{
-        Debug.Log("Bumper Scipt OnCollisionEnter");
+        Debug.Log("Bumper Script OnCollisionEnter");
 		foreach(Collider col in Physics.OverlapSphere(transform.position, forceRadius))
 		{
             Debug.Log("Bumper Script foreach");
