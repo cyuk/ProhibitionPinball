@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Chris Amazing Stuff\Scripts\Bumper.cs" />
      <Compile Include="Assets\Chris Amazing Stuff\Scripts\FlipperMovement.cs" />
      <Compile Include="Assets\Flipper.cs" />
      <Compile Include="Assets\George&apos;s Stuff\Scripts\ControllerFreecam.cs" />

@@ -126,7 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   force: 250
   forceDirection: {x: 0, y: 0, z: 1}
-  buttonName: Fire1
+  buttonName: 4669726531
   offset: {x: 1, y: 0, z: 0}
 --- !u!136 &13600000
 CapsuleCollider:
