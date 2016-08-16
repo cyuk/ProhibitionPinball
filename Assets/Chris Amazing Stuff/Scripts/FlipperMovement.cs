@@ -8,7 +8,7 @@ public class FlipperMovement : MonoBehaviour
 
 	public string button = "Fire1";
 	public Vector3 forceDirection = Vector3.forward;
-	public float order = 100.0f;
+	public float order = 1000.0f; // offset
 	public Vector3 balance;
 
 	// Update is called once per frame
